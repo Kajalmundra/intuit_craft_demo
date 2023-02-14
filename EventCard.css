@@ -1,0 +1,52 @@
+.event-box {
+  height: 150px;
+  width: 275px;
+  display: flex;
+  border-radius: 20px;
+}
+
+.selected, .unselected {
+  background-color: #BDE0FE;
+  border-color: #BDE0FE;
+}
+
+.unselectable {
+  background-color: lightgrey;
+  border-color: lightgrey;
+}
+
+.vertical-line {
+  border: 1px solid #000000;
+  margin: 10px 0;
+  height: 130px;
+  width: 0%;
+}
+
+.event-icon-container {
+  width: 100px;
+  font-size: 6em;
+  text-align: center;
+}
+
+.event-detail-container {
+  width: 200px;
+  padding-left: 10px;
+  padding-top: 30px;
+}
+
+.event-name {
+  font-weight: 700;
+}
+
+.button-container button {
+  float: right;
+  margin: 10px 10px 0 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #e9edc9;
+  border: 0.5px solid #ccd5ae;
+}
+
+.unselectable button {
+  border: none;
+}

@@ -1,0 +1,31 @@
+.app-container {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 1px solid #000000;
+}
+
+.outer-container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.inner-container {
+  margin: 10px;
+}
+
+.inner-container hr {
+  width: 25%;
+  border-color: #000000;
+  background-color: #000000;
+}
